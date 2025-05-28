@@ -1,5 +1,7 @@
 # icellers Dashboard
 
+![Alt text](public/demo.jpg)
+
 A modern dashboard web application built with [Next.js](https://nextjs.org/), featuring product and user management, analytics, and a responsive UI.
 
 ## Features
