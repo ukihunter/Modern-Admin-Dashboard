@@ -1,0 +1,103 @@
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #3e4c6d 0%, #29427542 100%);
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form input,
+.form textarea,
+.form select {
+  padding: 30px;
+  background-color: transparent;
+  color: var(--text);
+  border: 2px solid #777c81;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.form input,
+.form select {
+  width: 45%;
+}
+
+.form select option {
+  color: rgb(0, 0, 0);
+  background-color: rgb(117, 115, 115);
+  border-radius: 50px;
+}
+
+.form textarea {
+  width: 100%;
+}
+
+.form button {
+  width: 100%;
+  padding: 18px;
+  border-radius: 50px;
+  background-image: linear-gradient(
+    109.6deg,
+    rgb(211, 148, 214) 11.2%,
+    rgb(17, 23, 107) 96.7%
+  );
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.imageborder {
+  border: 2px solid #a7a7a7;
+  padding: 7px 20px;
+  width: 45%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+}
+
+.imageInput {
+  display: none;
+}
+
+.customFileInput {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(135deg, #071952 10%, #088395 100%);
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.customFileInput:hover {
+  background-color: #c2e59c;
+}
+
+.imagePreviewContainer {
+  margin-top: 10px;
+}
+
+.imagePreviewContainer span {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.imagePreview {
+  max-width: 160px;
+  height: 120px;
+  border: 1px solid #cccccc6b;
+  border-radius: 20px;
+  justify-content: center;
+  padding: 5px;
+}

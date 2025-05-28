@@ -1,0 +1,72 @@
+.container {
+  position: sticky;
+}
+.container:hover {
+  transform: translate3d(-10px, 0px, 0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.item {
+  position: sticky;
+  background: linear-gradient(to top, #1f1e1e, #243657);
+  border-radius: 10px;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+
+.bgConteainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.bg {
+  object-fit: cover;
+  opacity: 0.2;
+  width: 130px;
+}
+
+.bgnews {
+  opacity: 0.2;
+  width: 190px;
+  margin: 170px -30px;
+}
+
+.dollarRate {
+  padding: 10px;
+  color: chocolate;
+}
+
+.lkr {
+  color: white;
+  font-weight: bold;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px;
+  display: flex;
+  background-color: transparent;
+  border-image: linear-gradient(#ff02dd, #66c9e7) 1;
+  border-radius: 90px;
+  color: white;
+}
+
+.button:hover {
+  background: lime;
+  border-image: linear-gradient(#ff02dd, #66c9e7) 1;
+  border: none;
+  color: black;
+}
+
+.newsItem {
+  padding: 10px;
+  margin: 10px 10px;
+}
